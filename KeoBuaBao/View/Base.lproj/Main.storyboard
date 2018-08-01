@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pfL-nB-1DN">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="animeace.ttf">
+            <string>AnimeAce</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--MainVC-->
+        <scene sceneID="jmj-18-7Vl">
+            <objects>
+                <viewController id="pfL-nB-1DN" customClass="MainVC" customModule="KeoBuaBao" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6hc-PD-OLf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fXA-1p-ANc">
+                                <rect key="frame" x="0.0" y="20" width="375" height="60"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tro choi keo bua bao" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JwT-Qn-Ktp">
+                                        <rect key="frame" x="66.5" y="21" width="242.5" height="19"/>
+                                        <fontDescription key="fontDescription" name="AnimeAce" family="Anime Ace" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="BBk-Q9-kaM"/>
+                                    <constraint firstItem="JwT-Qn-Ktp" firstAttribute="centerY" secondItem="fXA-1p-ANc" secondAttribute="centerY" id="BL1-25-U1p"/>
+                                    <constraint firstItem="JwT-Qn-Ktp" firstAttribute="centerX" secondItem="fXA-1p-ANc" secondAttribute="centerX" id="mJn-Pa-Rt3"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="mpa-qK-jum">
+                                <rect key="frame" x="46" y="144" width="290" height="70"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="questionmask" translatesAutoresizingMaskIntoConstraints="NO" id="Xfw-3H-Gjc">
+                                        <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="70" id="MKP-UA-Xi2"/>
+                                            <constraint firstAttribute="height" constant="70" id="eyb-hq-8tG"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="questionmask" translatesAutoresizingMaskIntoConstraints="NO" id="TcW-af-fBm">
+                                        <rect key="frame" x="110" y="0.0" width="70" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="70" id="9kF-Cf-SQ7"/>
+                                            <constraint firstAttribute="height" constant="70" id="ag4-ws-63Z"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="questionmask" translatesAutoresizingMaskIntoConstraints="NO" id="dKL-25-6fr">
+                                        <rect key="frame" x="220" y="0.0" width="70" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="70" id="3gL-NX-wEh"/>
+                                            <constraint firstAttribute="height" constant="70" id="pgV-zd-skM"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="WRK-iF-Sra">
+                                <rect key="frame" x="43" y="286" width="290" height="70"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="questionmask" translatesAutoresizingMaskIntoConstraints="NO" id="EpR-5j-emU">
+                                        <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="70" id="iY8-aI-O89"/>
+                                            <constraint firstAttribute="height" constant="70" id="km9-cg-FLs"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" tag="2" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="questionmask" translatesAutoresizingMaskIntoConstraints="NO" id="qS0-dW-P9V">
+                                        <rect key="frame" x="110" y="0.0" width="70" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="70" id="9qk-Zo-loy"/>
+                                            <constraint firstAttribute="height" constant="70" id="Z1v-UQ-Tqn"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" tag="3" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="questionmask" translatesAutoresizingMaskIntoConstraints="NO" id="MQu-FH-W19">
+                                        <rect key="frame" x="220" y="0.0" width="70" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="WpZ-Ya-b6J"/>
+                                            <constraint firstAttribute="width" constant="70" id="jPa-jW-pAc"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="KoG-J7-hVG"/>
+                                </constraints>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t54-79-bAW">
+                                <rect key="frame" x="0.0" y="380" width="375" height="1"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="Gfk-D8-b12"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="UPB-nX-T7x">
+                                <rect key="frame" x="46" y="411" width="283" height="22"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ban" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dJp-9M-c7Y">
+                                        <rect key="frame" x="0.0" y="1.5" width="41" height="19"/>
+                                        <fontDescription key="fontDescription" name="AnimeAce" family="Anime Ace" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <size key="shadowOffset" width="1" height="-1"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FVZ-Zx-bgp">
+                                        <rect key="frame" x="81" y="0.0" width="17.5" height="22"/>
+                                        <fontDescription key="fontDescription" name="AnimeAce" family="Anime Ace" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h2m-Xo-dlf">
+                                        <rect key="frame" x="138.5" y="1.5" width="12" height="19"/>
+                                        <fontDescription key="fontDescription" name="AnimeAce" family="Anime Ace" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8sr-gx-Ck8">
+                                        <rect key="frame" x="190.5" y="0.0" width="8.5" height="22"/>
+                                        <fontDescription key="fontDescription" name="AnimeAce" family="Anime Ace" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="May" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dtt-hX-42I">
+                                        <rect key="frame" x="239" y="1.5" width="44" height="19"/>
+                                        <fontDescription key="fontDescription" name="AnimeAce" family="Anime Ace" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NVG-qh-opp">
+                                <rect key="frame" x="0.0" y="463" width="375" height="1"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="lMr-rh-oWI"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="1jR-zQ-19W">
+                                <rect key="frame" x="19" y="494" width="338" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oeK-BS-0Z2">
+                                        <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="30" id="JKL-cT-vEn"/>
+                                            <constraint firstAttribute="height" constant="30" id="snO-06-9gU"/>
+                                        </constraints>
+                                        <state key="normal" image="back">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="backPressed:" destination="pfL-nB-1DN" eventType="touchUpInside" id="TK6-Br-nzv"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bk3-cb-SLK">
+                                        <rect key="frame" x="90" y="0.0" width="42" height="30"/>
+                                        <fontDescription key="fontDescription" name="AnimeAce" family="Anime Ace" pointSize="17"/>
+                                        <state key="normal" title="keo">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <state key="disabled" title="keo">
+                                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="keoPressed:" destination="pfL-nB-1DN" eventType="touchUpInside" id="6Ka-x9-pRN"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3py-1a-Vtl">
+                                        <rect key="frame" x="192" y="0.0" width="41" height="30"/>
+                                        <fontDescription key="fontDescription" name="AnimeAce" family="Anime Ace" pointSize="17"/>
+                                        <state key="normal" title="bua">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <state key="disabled" title="bua">
+                                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buaPressed:" destination="pfL-nB-1DN" eventType="touchUpInside" id="J8b-vX-rWZ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OgW-fO-nag">
+                                        <rect key="frame" x="293" y="0.0" width="45" height="30"/>
+                                        <fontDescription key="fontDescription" name="AnimeAce" family="Anime Ace" pointSize="17"/>
+                                        <state key="normal" title="bao">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <state key="disabled" title="bao">
+                                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="baoPressed:" destination="pfL-nB-1DN" eventType="touchUpInside" id="X2T-mR-zND"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="atH-0U-nRp"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UOc-s2-56L">
+                                <rect key="frame" x="153" y="574" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="9oK-Zf-EoE"/>
+                                    <constraint firstAttribute="width" constant="70" id="MUR-st-WR7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AnimeAce" family="Anime Ace" pointSize="17"/>
+                                <state key="normal" title="choi">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <state key="disabled" title="choi">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="choiPressed:" destination="pfL-nB-1DN" eventType="touchUpInside" id="D9c-xT-90b"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ban" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ecu-6b-Yk0">
+                                <rect key="frame" x="16" y="236" width="60" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="fiE-34-NBD"/>
+                                    <constraint firstAttribute="height" constant="30" id="noI-S9-Jlr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AnimeAce" family="Anime Ace" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="May" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vY8-67-KPn">
+                                <rect key="frame" x="16" y="94" width="60" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Y43-3Z-nOm"/>
+                                    <constraint firstAttribute="width" constant="60" id="oih-mX-dIy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AnimeAce" family="Anime Ace" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="NVG-qh-opp" firstAttribute="top" secondItem="UPB-nX-T7x" secondAttribute="bottom" constant="30" id="3tf-MI-jCW"/>
+                            <constraint firstItem="NVG-qh-opp" firstAttribute="leading" secondItem="6hc-PD-OLf" secondAttribute="leading" id="56L-sM-ejO"/>
+                            <constraint firstItem="fXA-1p-ANc" firstAttribute="trailing" secondItem="9pz-Yq-whZ" secondAttribute="trailing" id="E5m-na-r14"/>
+                            <constraint firstItem="t54-79-bAW" firstAttribute="top" secondItem="WRK-iF-Sra" secondAttribute="bottom" constant="24" id="EJy-ds-EQz"/>
+                            <constraint firstItem="WRK-iF-Sra" firstAttribute="leading" secondItem="9pz-Yq-whZ" secondAttribute="leading" constant="43" id="EYE-n3-46Q"/>
+                            <constraint firstItem="UPB-nX-T7x" firstAttribute="centerX" secondItem="6hc-PD-OLf" secondAttribute="centerX" id="FCr-Al-EpE"/>
+                            <constraint firstItem="mpa-qK-jum" firstAttribute="leading" secondItem="9pz-Yq-whZ" secondAttribute="leading" constant="46" id="FwD-BE-SrT"/>
+                            <constraint firstItem="1jR-zQ-19W" firstAttribute="top" secondItem="NVG-qh-opp" secondAttribute="bottom" constant="30" id="GLt-p2-DNY"/>
+                            <constraint firstItem="UPB-nX-T7x" firstAttribute="top" secondItem="t54-79-bAW" secondAttribute="bottom" constant="30" id="Jbh-bo-UDh"/>
+                            <constraint firstItem="1jR-zQ-19W" firstAttribute="centerY" secondItem="6hc-PD-OLf" secondAttribute="centerY" constant="175.5" id="LKT-Wa-cvg"/>
+                            <constraint firstAttribute="trailing" secondItem="NVG-qh-opp" secondAttribute="trailing" id="PK3-PP-dOe"/>
+                            <constraint firstAttribute="trailing" secondItem="t54-79-bAW" secondAttribute="trailing" id="PLT-JC-jUZ"/>
+                            <constraint firstItem="1jR-zQ-19W" firstAttribute="centerY" secondItem="6hc-PD-OLf" secondAttribute="centerY" constant="175.5" id="QSf-t8-uJf"/>
+                            <constraint firstItem="t54-79-bAW" firstAttribute="leading" secondItem="6hc-PD-OLf" secondAttribute="leading" id="V3E-jg-a0f"/>
+                            <constraint firstItem="vY8-67-KPn" firstAttribute="leading" secondItem="9pz-Yq-whZ" secondAttribute="leading" constant="16" id="YOZ-Mn-jsW"/>
+                            <constraint firstItem="mpa-qK-jum" firstAttribute="top" secondItem="vY8-67-KPn" secondAttribute="bottom" constant="20" id="Yqo-OV-71x"/>
+                            <constraint firstItem="vY8-67-KPn" firstAttribute="top" secondItem="fXA-1p-ANc" secondAttribute="bottom" constant="14" id="cBE-Bs-WV5"/>
+                            <constraint firstItem="ecu-6b-Yk0" firstAttribute="leading" secondItem="9pz-Yq-whZ" secondAttribute="leading" constant="16" id="gY6-5T-6HJ"/>
+                            <constraint firstItem="fXA-1p-ANc" firstAttribute="top" secondItem="6hc-PD-OLf" secondAttribute="top" constant="20" id="gaa-af-fIk"/>
+                            <constraint firstItem="ecu-6b-Yk0" firstAttribute="top" secondItem="mpa-qK-jum" secondAttribute="bottom" constant="22" id="gdM-4A-WR7"/>
+                            <constraint firstItem="WRK-iF-Sra" firstAttribute="top" secondItem="ecu-6b-Yk0" secondAttribute="bottom" constant="20" id="jWT-PF-pcg"/>
+                            <constraint firstItem="fXA-1p-ANc" firstAttribute="leading" secondItem="9pz-Yq-whZ" secondAttribute="leading" id="s3Y-Qt-BHa"/>
+                            <constraint firstItem="1jR-zQ-19W" firstAttribute="centerX" secondItem="6hc-PD-OLf" secondAttribute="centerX" id="tFs-TU-m3h"/>
+                            <constraint firstItem="UOc-s2-56L" firstAttribute="top" secondItem="1jR-zQ-19W" secondAttribute="bottom" constant="50" id="tii-GA-a78"/>
+                            <constraint firstItem="UOc-s2-56L" firstAttribute="centerX" secondItem="6hc-PD-OLf" secondAttribute="centerX" id="wg8-FP-qfa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="9pz-Yq-whZ"/>
+                    </view>
+                    <connections>
+                        <outlet property="banImg1" destination="EpR-5j-emU" id="aId-6P-1m8"/>
+                        <outlet property="banImg2" destination="qS0-dW-P9V" id="sa8-zv-2aN"/>
+                        <outlet property="banImg3" destination="MQu-FH-W19" id="RhJ-zF-EBR"/>
+                        <outlet property="banScoreLbl" destination="FVZ-Zx-bgp" id="G48-sA-47P"/>
+                        <outlet property="baoBtn" destination="OgW-fO-nag" id="8jY-yn-RoJ"/>
+                        <outlet property="buaBtn" destination="3py-1a-Vtl" id="ffB-c5-0PI"/>
+                        <outlet property="keoBtn" destination="Bk3-cb-SLK" id="zKD-Hg-hvH"/>
+                        <outlet property="mayImg1" destination="Xfw-3H-Gjc" id="9hn-1l-pfD"/>
+                        <outlet property="mayImg2" destination="TcW-af-fBm" id="AXA-wJ-WZJ"/>
+                        <outlet property="mayImg3" destination="dKL-25-6fr" id="Gs0-Ta-NTV"/>
+                        <outlet property="mayScoreLbl" destination="8sr-gx-Ck8" id="F5l-cW-Unw"/>
+                        <outlet property="playBtn" destination="UOc-s2-56L" id="qql-mr-zC1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eMx-k9-cJs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="189.59999999999999" y="121.88905547226388"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back" width="512" height="512"/>
+        <image name="questionmask" width="512" height="512"/>
+    </resources>
+</document>
