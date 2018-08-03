@@ -159,17 +159,10 @@ class MainVC: UIViewController {
     @IBAction func resetPressed(_ sender: Any) {
         initView()
     }
-    
-    @IBAction func historyPressed(_ sender: Any) {
-    }
-    
 }
 
 // MARK: - Handle logic
 extension MainVC {
-    
-    
-    
     
     func gameLogic (a: UIImageView, b: UIImageView) -> Int {
         
@@ -189,15 +182,17 @@ extension MainVC {
     }
     
     func checkPlayPressable() {
-        if select.count == 3 {
-            if playBtn.isEnabled == false {
-                playBtn.isEnabled = true
-            }
-        } else {
-            if playBtn.isEnabled == true {
-                playBtn.isEnabled = false
-            }
-        }
+//        if select.count == 3 {
+//            if playBtn.isEnabled == false {
+//                playBtn.isEnabled = true
+//            }
+//        } else {
+//            if playBtn.isEnabled == true {
+//                playBtn.isEnabled = false
+//            }
+//        }
+        
+        playBtn.isEnabled = select.count == 3
     }
     
     func randomComputer() {
