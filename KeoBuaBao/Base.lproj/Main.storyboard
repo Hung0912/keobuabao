@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -26,24 +27,13 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tro choi keo bua bao" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JwT-Qn-Ktp">
-                                        <rect key="frame" x="67" y="21" width="242.5" height="19"/>
-                                        <fontDescription key="fontDescription" name="AnimeAce" family="Anime Ace" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <rect key="frame" x="52" y="20" width="271" height="21"/>
+                                        <fontDescription key="fontDescription" name="AnimeAce" family="Anime Ace" pointSize="19"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="up4-ZA-q4d">
-                                        <rect key="frame" x="321" y="30" width="47" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="history">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="historyPressed:" destination="pfL-nB-1DN" eventType="touchUpInside" id="Hpz-Cf-nIp"/>
-                                            <segue destination="cqv-7z-GNS" kind="showDetail" identifier="HistoryShow" id="HkI-Iz-Qeo"/>
-                                        </connections>
-                                    </button>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="BBk-Q9-kaM"/>
                                     <constraint firstItem="JwT-Qn-Ktp" firstAttribute="centerY" secondItem="fXA-1p-ANc" secondAttribute="centerY" id="BL1-25-U1p"/>
@@ -182,7 +172,7 @@
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="1jR-zQ-19W">
-                                <rect key="frame" x="18.5" y="494" width="338" height="30"/>
+                                <rect key="frame" x="19" y="494" width="338" height="30"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oeK-BS-0Z2">
                                         <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
@@ -242,10 +232,10 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UOc-s2-56L">
-                                <rect key="frame" x="80" y="547" width="70" height="70"/>
+                                <rect key="frame" x="80" y="544" width="70" height="40"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="h2H-PH-aJq"/>
-                                    <constraint firstAttribute="width" constant="70" id="tqS-w9-bFR"/>
+                                    <constraint firstAttribute="width" constant="70" id="46k-wL-KUN"/>
+                                    <constraint firstAttribute="height" constant="40" id="UAa-v7-jlY"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AnimeAce" family="Anime Ace" pointSize="17"/>
                                 <state key="normal" title="Play">
@@ -263,10 +253,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UWo-Hi-7xW">
-                                <rect key="frame" x="225" y="547" width="70" height="70"/>
+                                <rect key="frame" x="225" y="544" width="70" height="40"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="70" id="XtJ-tz-eps"/>
-                                    <constraint firstAttribute="height" constant="70" id="YjW-xS-nbI"/>
+                                    <constraint firstAttribute="height" constant="40" id="AZO-AQ-5A5"/>
+                                    <constraint firstAttribute="width" constant="70" id="U4q-s3-6q4"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AnimeAce" family="Anime Ace" pointSize="17"/>
                                 <state key="normal" title="RESET">
@@ -285,7 +275,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="win" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ZV-O3-Fg0">
-                                <rect key="frame" x="48.5" y="434" width="37" height="20"/>
+                                <rect key="frame" x="48" y="434" width="37" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="4Jp-Fd-xWX"/>
                                     <constraint firstAttribute="width" constant="37" id="oLF-wS-1NZ"/>
@@ -304,22 +294,43 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Bi-q4-0f6">
+                                <rect key="frame" x="145" y="595" width="85" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="85" id="DMS-vS-IqJ"/>
+                                    <constraint firstAttribute="height" constant="40" id="FK9-K5-RV8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AnimeAce" family="Anime Ace" pointSize="13"/>
+                                <state key="normal" title="history">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="historyPressed:" destination="pfL-nB-1DN" eventType="touchUpInside" id="gO2-TC-u1u"/>
+                                    <segue destination="cqv-7z-GNS" kind="showDetail" id="vlT-8I-bgi"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="0ZV-O3-Fg0" firstAttribute="top" secondItem="UPB-nX-T7x" secondAttribute="bottom" constant="1" id="0ac-SP-MPa"/>
+                            <constraint firstItem="UOc-s2-56L" firstAttribute="top" secondItem="1jR-zQ-19W" secondAttribute="bottom" constant="20" id="0cq-Gu-TkC"/>
                             <constraint firstItem="NVG-qh-opp" firstAttribute="top" secondItem="UPB-nX-T7x" secondAttribute="bottom" constant="27" id="3tf-MI-jCW"/>
                             <constraint firstItem="NVG-qh-opp" firstAttribute="leading" secondItem="6hc-PD-OLf" secondAttribute="leading" id="56L-sM-ejO"/>
-                            <constraint firstItem="9pz-Yq-whZ" firstAttribute="trailing" secondItem="UWo-Hi-7xW" secondAttribute="trailing" constant="80" id="605-o2-YYk"/>
-                            <constraint firstItem="UOc-s2-56L" firstAttribute="leading" secondItem="9pz-Yq-whZ" secondAttribute="leading" constant="80" id="9in-qH-6DC"/>
+                            <constraint firstItem="9pz-Yq-whZ" firstAttribute="bottom" secondItem="5Bi-q4-0f6" secondAttribute="bottom" constant="32" id="8w3-Oc-uAq"/>
+                            <constraint firstItem="UWo-Hi-7xW" firstAttribute="top" secondItem="1jR-zQ-19W" secondAttribute="bottom" constant="20" id="Dxh-Nc-S5Y"/>
                             <constraint firstItem="fXA-1p-ANc" firstAttribute="trailing" secondItem="9pz-Yq-whZ" secondAttribute="trailing" id="E5m-na-r14"/>
                             <constraint firstItem="t54-79-bAW" firstAttribute="top" secondItem="WRK-iF-Sra" secondAttribute="bottom" constant="24" id="EJy-ds-EQz"/>
                             <constraint firstItem="WRK-iF-Sra" firstAttribute="leading" secondItem="9pz-Yq-whZ" secondAttribute="leading" constant="43" id="EYE-n3-46Q"/>
                             <constraint firstItem="UPB-nX-T7x" firstAttribute="centerX" secondItem="6hc-PD-OLf" secondAttribute="centerX" id="FCr-Al-EpE"/>
                             <constraint firstItem="mpa-qK-jum" firstAttribute="leading" secondItem="9pz-Yq-whZ" secondAttribute="leading" constant="46" id="FwD-BE-SrT"/>
                             <constraint firstItem="1jR-zQ-19W" firstAttribute="top" secondItem="NVG-qh-opp" secondAttribute="bottom" constant="33" id="GLt-p2-DNY"/>
+                            <constraint firstItem="UOc-s2-56L" firstAttribute="leading" secondItem="9pz-Yq-whZ" secondAttribute="leading" constant="80" id="Iu4-5l-bhD"/>
                             <constraint firstItem="UPB-nX-T7x" firstAttribute="top" secondItem="t54-79-bAW" secondAttribute="bottom" constant="30" id="Jbh-bo-UDh"/>
                             <constraint firstItem="1jR-zQ-19W" firstAttribute="centerY" secondItem="6hc-PD-OLf" secondAttribute="centerY" constant="175.5" id="LKT-Wa-cvg"/>
+                            <constraint firstItem="9pz-Yq-whZ" firstAttribute="trailing" secondItem="UWo-Hi-7xW" secondAttribute="trailing" constant="80" id="MpF-iR-14Z"/>
                             <constraint firstAttribute="trailing" secondItem="NVG-qh-opp" secondAttribute="trailing" id="PK3-PP-dOe"/>
                             <constraint firstAttribute="trailing" secondItem="t54-79-bAW" secondAttribute="trailing" id="PLT-JC-jUZ"/>
                             <constraint firstItem="1jR-zQ-19W" firstAttribute="centerY" secondItem="6hc-PD-OLf" secondAttribute="centerY" constant="175.5" id="QSf-t8-uJf"/>
@@ -329,14 +340,14 @@
                             <constraint firstItem="vY8-67-KPn" firstAttribute="top" secondItem="fXA-1p-ANc" secondAttribute="bottom" constant="14" id="cBE-Bs-WV5"/>
                             <constraint firstItem="ecu-6b-Yk0" firstAttribute="leading" secondItem="9pz-Yq-whZ" secondAttribute="leading" constant="16" id="gY6-5T-6HJ"/>
                             <constraint firstItem="fXA-1p-ANc" firstAttribute="top" secondItem="6hc-PD-OLf" secondAttribute="top" constant="20" id="gaa-af-fIk"/>
+                            <constraint firstItem="9pz-Yq-whZ" firstAttribute="trailing" secondItem="5Bi-q4-0f6" secondAttribute="trailing" constant="145" id="gb8-ld-CNS"/>
                             <constraint firstItem="ecu-6b-Yk0" firstAttribute="top" secondItem="mpa-qK-jum" secondAttribute="bottom" constant="22" id="gdM-4A-WR7"/>
+                            <constraint firstItem="5Bi-q4-0f6" firstAttribute="leading" secondItem="9pz-Yq-whZ" secondAttribute="leading" constant="145" id="gwn-IF-Tki"/>
                             <constraint firstItem="WRK-iF-Sra" firstAttribute="top" secondItem="ecu-6b-Yk0" secondAttribute="bottom" constant="20" id="jWT-PF-pcg"/>
-                            <constraint firstItem="9pz-Yq-whZ" firstAttribute="bottom" secondItem="UOc-s2-56L" secondAttribute="bottom" constant="50" id="rQ5-zg-OAg"/>
                             <constraint firstItem="esZ-qo-D8S" firstAttribute="centerX" secondItem="dtt-hX-42I" secondAttribute="centerX" id="rV5-S6-TOE"/>
                             <constraint firstItem="fXA-1p-ANc" firstAttribute="leading" secondItem="9pz-Yq-whZ" secondAttribute="leading" id="s3Y-Qt-BHa"/>
                             <constraint firstItem="1jR-zQ-19W" firstAttribute="centerX" secondItem="6hc-PD-OLf" secondAttribute="centerX" id="tFs-TU-m3h"/>
                             <constraint firstItem="0ZV-O3-Fg0" firstAttribute="centerX" secondItem="dJp-9M-c7Y" secondAttribute="centerX" id="uc2-aT-rPe"/>
-                            <constraint firstItem="9pz-Yq-whZ" firstAttribute="bottom" secondItem="UWo-Hi-7xW" secondAttribute="bottom" constant="50" id="usm-bQ-ZNH"/>
                             <constraint firstItem="esZ-qo-D8S" firstAttribute="top" secondItem="UPB-nX-T7x" secondAttribute="bottom" constant="1" id="uyQ-w7-EwO"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="9pz-Yq-whZ"/>
@@ -361,7 +372,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eMx-k9-cJs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-154" y="-45"/>
+            <point key="canvasLocation" x="-154.40000000000001" y="-45.42728635682159"/>
         </scene>
         <!--History View Controller-->
         <scene sceneID="MPb-cv-5y2">
@@ -375,18 +386,23 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="70"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="History" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i3Q-BI-jaC">
-                                        <rect key="frame" x="160.5" y="25.5" width="55" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <rect key="frame" x="145" y="25.5" width="86" height="19"/>
+                                        <fontDescription key="fontDescription" name="AnimeAce" family="Anime Ace" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XMo-Fr-wSh">
-                                        <rect key="frame" x="8" y="8" width="34" height="30"/>
+                                        <rect key="frame" x="8" y="19" width="52" height="33"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AnimeAce" family="Anime Ace" pointSize="10"/>
                                         <state key="normal" title="back">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
+                                            <action selector="backPressed:" destination="cqv-7z-GNS" eventType="touchUpInside" id="g89-ql-kk5"/>
                                             <action selector="backPressed:" destination="N56-lv-ay6" eventType="touchUpInside" id="q29-hL-E7U"/>
                                         </connections>
                                     </button>
@@ -398,20 +414,20 @@
                                     <constraint firstAttribute="height" constant="70" id="q74-mt-FfB"/>
                                 </constraints>
                             </view>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="HI5-i6-dxt">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="HI5-i6-dxt">
                                 <rect key="frame" x="0.0" y="86" width="375" height="581"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="80" id="xfk-yo-ixV" customClass="HistoryCell" customModule="KeoBuaBao" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="80"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="HistoryCell" rowHeight="100" id="xfk-yo-ixV" customClass="HistoryCell" customModule="KeoBuaBao" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xfk-yo-ixV" id="nGa-AE-Zj2">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="79.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="uA1-7V-VMM">
-                                                    <rect key="frame" x="46" y="28" width="283" height="24.5"/>
+                                                    <rect key="frame" x="46" y="37" width="283" height="24.5"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ban" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ed-e0-azn">
                                                             <rect key="frame" x="0.0" y="3" width="41" height="19"/>
@@ -453,8 +469,8 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="comScoreLabel" destination="Reo-1y-8gG" id="z8n-Hf-c6m"/>
-                                            <outlet property="yourScoreLabel" destination="gpd-Ta-N5d" id="g98-Zu-UUv"/>
+                                            <outlet property="comScoreLabel" destination="Reo-1y-8gG" id="ZmL-pi-jxU"/>
+                                            <outlet property="yourScoreLabel" destination="gpd-Ta-N5d" id="GKa-3N-h34"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

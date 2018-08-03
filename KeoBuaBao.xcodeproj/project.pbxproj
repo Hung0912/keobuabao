@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		252D38422114074D0052DDD2 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252D38412114074D0052DDD2 /* History.swift */; };
+		252D384421140B040052DDD2 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252D384321140B040052DDD2 /* HistoryViewController.swift */; };
+		252D38482114250C0052DDD2 /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252D38472114250C0052DDD2 /* HistoryCell.swift */; };
 		25CD2280211031F8000E0F6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CD227F211031F8000E0F6E /* AppDelegate.swift */; };
 		25CD2287211031F9000E0F6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25CD2286211031F9000E0F6E /* Assets.xcassets */; };
 		25CD228A211031F9000E0F6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25CD2288211031F9000E0F6E /* LaunchScreen.storyboard */; };
@@ -15,7 +18,9 @@
 		25CD22A821103F34000E0F6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25CD22AA21103F34000E0F6E /* Main.storyboard */; };
 		25CD22AC211041BF000E0F6E /* selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CD22AB211041BF000E0F6E /* selection.swift */; };
 		25EE1E772111639900BEB4D5 /* animeace.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25EE1E762111639900BEB4D5 /* animeace.ttf */; };
-		25EE1E79211164B700BEB4D5 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EE1E78211164B700BEB4D5 /* MaterialView.swift */; };
+		25EE1E79211164B700BEB4D5 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EE1E78211164B700BEB4D5 /* BorderButton.swift */; };
+		25EE1E7B2111955B00BEB4D5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EE1E7A2111955B00BEB4D5 /* Constants.swift */; };
+		57E757062A876F284E7E1AD8 /* Pods_KeoBuaBao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9044BB865C60D9FAB43B4F /* Pods_KeoBuaBao.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07B7D538561C49533A89EECE /* Pods-KeoBuaBao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeoBuaBao.release.xcconfig"; path = "Pods/Target Support Files/Pods-KeoBuaBao/Pods-KeoBuaBao.release.xcconfig"; sourceTree = "<group>"; };
+		252D38412114074D0052DDD2 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		252D384321140B040052DDD2 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		252D38472114250C0052DDD2 /* HistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
 		25CD227C211031F8000E0F6E /* KeoBuaBao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeoBuaBao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25CD227F211031F8000E0F6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25CD2286211031F9000E0F6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -41,7 +50,11 @@
 		25CD22A921103F34000E0F6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		25CD22AB211041BF000E0F6E /* selection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selection.swift; sourceTree = "<group>"; };
 		25EE1E762111639900BEB4D5 /* animeace.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = animeace.ttf; path = "../../../../../Downloads/anime-ace/animeace.ttf"; sourceTree = "<group>"; };
-		25EE1E78211164B700BEB4D5 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MaterialView.swift; path = ../../../DreamLister/DreamLister/View/MaterialView.swift; sourceTree = "<group>"; };
+		25EE1E78211164B700BEB4D5 /* BorderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BorderButton.swift; path = ../../../DreamLister/DreamLister/View/BorderButton.swift; sourceTree = "<group>"; };
+		25EE1E7A2111955B00BEB4D5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4E85C5D2FADCE64F2AE2B0B4 /* Pods_KeoBuaBaoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeoBuaBaoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD9044BB865C60D9FAB43B4F /* Pods_KeoBuaBao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeoBuaBao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD660A4C1DE09D0A2A6DFD96 /* Pods-KeoBuaBao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeoBuaBao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KeoBuaBao/Pods-KeoBuaBao.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57E757062A876F284E7E1AD8 /* Pods_KeoBuaBao.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +76,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06045F25D80B09F07A39D2BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD660A4C1DE09D0A2A6DFD96 /* Pods-KeoBuaBao.debug.xcconfig */,
+				07B7D538561C49533A89EECE /* Pods-KeoBuaBao.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		25CD2273211031F8000E0F6E = {
 			isa = PBXGroup;
 			children = (
 				25CD227E211031F8000E0F6E /* KeoBuaBao */,
 				25CD2293211031F9000E0F6E /* KeoBuaBaoTests */,
 				25CD227D211031F8000E0F6E /* Products */,
+				06045F25D80B09F07A39D2BE /* Pods */,
+				54C25E7F870A5BAF3B6C7300 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +115,7 @@
 				25CD227F211031F8000E0F6E /* AppDelegate.swift */,
 				25CD2286211031F9000E0F6E /* Assets.xcassets */,
 				25CD2288211031F9000E0F6E /* LaunchScreen.storyboard */,
+				25CD22AA21103F34000E0F6E /* Main.storyboard */,
 				25CD228B211031F9000E0F6E /* Info.plist */,
 			);
 			path = KeoBuaBao;
@@ -108,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				25CD22A621103392000E0F6E /* MainVC.swift */,
+				252D384321140B040052DDD2 /* HistoryViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -115,8 +142,8 @@
 		25CD22A021103308000E0F6E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				25EE1E78211164B700BEB4D5 /* MaterialView.swift */,
-				25CD22AA21103F34000E0F6E /* Main.storyboard */,
+				25EE1E78211164B700BEB4D5 /* BorderButton.swift */,
+				252D38472114250C0052DDD2 /* HistoryCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -124,7 +151,9 @@
 		25CD22A12110330F000E0F6E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				25EE1E7A2111955B00BEB4D5 /* Constants.swift */,
 				25CD22AB211041BF000E0F6E /* selection.swift */,
+				252D38412114074D0052DDD2 /* History.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -137,6 +166,15 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		54C25E7F870A5BAF3B6C7300 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD9044BB865C60D9FAB43B4F /* Pods_KeoBuaBao.framework */,
+				4E85C5D2FADCE64F2AE2B0B4 /* Pods_KeoBuaBaoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25CD2299211031F9000E0F6E /* Build configuration list for PBXNativeTarget "KeoBuaBao" */;
 			buildPhases = (
+				8481672CBD529D0CDB037FF7 /* [CP] Check Pods Manifest.lock */,
 				25CD2278211031F8000E0F6E /* Sources */,
 				25CD2279211031F8000E0F6E /* Frameworks */,
 				25CD227A211031F8000E0F6E /* Resources */,
+				13AA743F04E2E3F13A6DCB2E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,15 +274,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13AA743F04E2E3F13A6DCB2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KeoBuaBao/Pods-KeoBuaBao-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KeoBuaBao/Pods-KeoBuaBao-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8481672CBD529D0CDB037FF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeoBuaBao-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		25CD2278211031F8000E0F6E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				252D38422114074D0052DDD2 /* History.swift in Sources */,
+				25EE1E7B2111955B00BEB4D5 /* Constants.swift in Sources */,
 				25CD2280211031F8000E0F6E /* AppDelegate.swift in Sources */,
 				25CD22AC211041BF000E0F6E /* selection.swift in Sources */,
 				25CD22A721103392000E0F6E /* MainVC.swift in Sources */,
-				25EE1E79211164B700BEB4D5 /* MaterialView.swift in Sources */,
+				252D384421140B040052DDD2 /* HistoryViewController.swift in Sources */,
+				252D38482114250C0052DDD2 /* HistoryCell.swift in Sources */,
+				25EE1E79211164B700BEB4D5 /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +485,7 @@
 		};
 		25CD229A211031F9000E0F6E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD660A4C1DE09D0A2A6DFD96 /* Pods-KeoBuaBao.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -417,6 +503,7 @@
 		};
 		25CD229B211031F9000E0F6E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07B7D538561C49533A89EECE /* Pods-KeoBuaBao.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
